@@ -9,12 +9,22 @@ Competition homepage: [https://www.kaggle.com/c/digit-recognizer](https://www.ka
 	* Train steps: 200 rounds of all train images
 	* **Kaggle accuracy**: 0.99142 (Rank: 1028)
 
-2. Baseline CNN 4 layer
-	* Layer 1: 32 node; Layer 2: 64 node; Layer 3: 64 node; Layer 4: 64 node; Drop rate: 0.5
+2. Baseline CNN 5 layer
+	* Layer 1: 32 node; Layer 2: 64 node; Layer 3: 64 node; Layer 4: 64 node; Layer 5: 64 node; Drop rate: 0.5
 	* Train steps: 200 rounds of all train images
-	* **Kaggle accuracy**: 0.98385 (Rank: 1028)
+	* **Kaggle accuracy**: 0.98385 (Rank: ???)
 	* Analysis: The deeper the net the harder to propagate the features of train data. It needs more train steps.
-	* Suggestion: Try net with less layers and the same number of nodes but less nodes.
+	* Suggestion: Try net with less layers (#3) and the same number of nodes but less nodes (#4).
+
+3. Baseline CNN 3 layer
+	* Layer 1: 32 node; Layer 2: 64 node; Layer 3: 64 node; Drop rate: 0.5
+	* Train steps: 200 rounds of all train images
+	* **Kaggle accuracy**:
+
+4. Baseline CNN 5 layer
+	* Layer 1: 32 node; Layer 2: 64 node; Layer 3: 64 node; Layer 4: 64 node; Layer 5: 64 node; Drop rate: 0.5
+	* Train steps: 1000 rounds of all train images
+	* **Kaggle accuracy**: 
 
 
 ###Mise:
