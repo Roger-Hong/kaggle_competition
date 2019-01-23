@@ -9,7 +9,7 @@ Competition homepage: [https://www.kaggle.com/c/digit-recognizer](https://www.ka
 	* Train steps: 200 rounds of all train images
 	* **Kaggle accuracy**: 0.99142 (Rank: 1028)
 
-2. Baseline CNN 5 layer
+2. CNN 5 layer
 	* Layer 1: 32 node; Layer 2: 64 node; Layer 3: 64 node; Layer 4: 64 node; Layer 5: 64 node; Drop rate: 0.5
 	* Train steps: 200 rounds of all train images
 	* **Kaggle accuracy**: 0.98385 (Rank: ???)
@@ -31,12 +31,18 @@ Competition homepage: [https://www.kaggle.com/c/digit-recognizer](https://www.ka
 	* Train steps: 200 rounds of all train images
 	* **Kaggle accuracy**: 0.98728.
 
-5. Baseline CNN 5 layer
+5. CNN 5 layer
 	* Layer 1: 32 node; Layer 2: 64 node; Layer 3: 64 node; Layer 4: 64 node; Layer 5: 64 node; Drop rate: 0.5
 	* Train steps: 1000 rounds of all train images
 	* **Kaggle accuracy**: 0.98814 (Rank: ???)
 	* Analysis: The deeper the net the harder to propagate the features of train data. It needs more train steps.
 	* Suggestion: Try net with less layers (#3) and the same number of nodes but less nodes (#4).
+
+6. Comparsion of CNN 2 layer
+	* Layer 1: 32 node; Layer 2: 64 node; Drop rate: 0.5
+	* Train rounds:          200    |   500   |   600 
+	* **Kaggle accuracy**: 0.98457  | 0.98828 | 0.98757
+
 
 ### Question:  
 1. Why the performance of the baseline network ([32, 64]) is better than wider ([128,128]) and deeper ([32, 64, 64, 64, 64]) network with the same training round and dropout rate.

@@ -16,7 +16,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-REQUIRED_PACKAGES = ['tensorflow>=1.5.0']
+REQUIRED_PACKAGES = ['tensorflow-gpu']
 
 setup(
 	name='mnist',
