@@ -40,6 +40,7 @@ Competition homepage: [https://www.kaggle.com/c/digit-recognizer](https://www.ka
 
 6. Comparsion of CNN 2 layer
 	* Layer 1: 32 node; Layer 2: 64 node; Drop rate: 0.5
+
 	| **Train rounds** | 200 | 350 | 400 | 450 | 500 | 600 |
 	| --- | --- | --- | --- | --- | --- | --- |
 	| **Kaggle accuracy** | 0.98457 | 0.98757 | 0.98657 | 0.98700 | 0.98828 | 0.98757 |
