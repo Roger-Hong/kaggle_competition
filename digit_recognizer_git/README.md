@@ -40,9 +40,11 @@ Competition homepage: [https://www.kaggle.com/c/digit-recognizer](https://www.ka
 
 6. Comparsion of CNN 2 layer
 	* Layer 1: 32 node; Layer 2: 64 node; Drop rate: 0.5
-	* Train rounds:          200    |   500   |   600 
-	* **Kaggle accuracy**: 0.98457  | 0.98828 | 0.98757
+	| **Train rounds** | 200 | 350 | 400 | 450 | 500 | 600 |
+	| --- | --- | --- | --- | --- | --- | --- |
+	| **Kaggle accuracy** | 0.98457 | 0.98757 | 0.98657 | 0.98700 | 0.98828 | 0.98757 |
 
+	![Figure 1. MNIST with 2 layer CNN](MNIST_cnn_32_64.png)
 
 ### Question:  
 1. Why the performance of the baseline network ([32, 64]) is better than wider ([128,128]) and deeper ([32, 64, 64, 64, 64]) network with the same training round and dropout rate.
